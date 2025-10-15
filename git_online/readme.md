@@ -51,7 +51,9 @@ Warning: Permanently added 'github.com,XX.XX.XXX.XXX' (``ECDSA``) to the list of
 ```
 this is a gribbish dont care
 ```
-確定上述的fingerprint 是跟github對得起來的
+確定上述的fingerprint 是跟github對得起來的<br>
+---
+# 以下非常重要(關於remote-url的配置)
 # 配置如下(#以此篇為例)
 ssh 會變成:git@personal:establishSSh/createSSh.git
 
