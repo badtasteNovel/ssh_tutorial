@@ -15,5 +15,5 @@ sc config ssh-agent start=auto
 net start ssh-agent
 ```
 ```cmd
-ssh-add `<private-key-path>`
+ssh-add <private-key-path>
 ```
