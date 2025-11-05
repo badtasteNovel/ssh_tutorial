@@ -17,3 +17,7 @@ net start ssh-agent
 ```cmd
 ssh-add <private-key-path>
 ```
+# 檢查金鑰是否匹配
+```cmd
+ssh-keygen -y -f <檔案路徑>
+```
