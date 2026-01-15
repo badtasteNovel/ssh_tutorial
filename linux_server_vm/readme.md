@@ -25,4 +25,5 @@ cat /etc/ssh/ssh_host_ed25519_key.pub
 ```bash
 ~/.ssh
 ```
+公鑰都作為字串輸入進入authorized_keys中
 # ufw防火牆記得要開內網
