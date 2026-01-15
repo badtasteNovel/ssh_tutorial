@@ -21,4 +21,8 @@ sudo gedit /etc/ssh/sshd_config
 ```bash
 cat /etc/ssh/ssh_host_ed25519_key.pub
 ```
+# linux 金鑰存放位置，預設都為
+```bash
+~/.ssh
+```
 # ufw防火牆記得要開內網
