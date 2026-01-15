@@ -23,7 +23,18 @@ cat /etc/ssh/ssh_host_ed25519_key.pub
 ```
 # linux 金鑰存放位置，預設都為
 ```bash
-~/.ssh
+~/.ssh/authorized_keys
 ```
 公鑰都作為字串輸入進入authorized_keys中
+
 # ufw防火牆記得要開內網
+
+
+# ssh金鑰取代密碼登入的方式
+![ssh快速通關方法](ssh快速通關設定.png)
+
+# 重啟服務
+![sshd重啟服務](重起服務.png)
+
+# 除錯方式
+![linux的sshd除錯方式](除錯方式.png)
