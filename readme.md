@@ -21,3 +21,8 @@ ssh-add <private-key-path>
 ```cmd
 ssh-keygen -y -f <檔案路徑>
 ```
+
+
+# 最重要
+因為自動化維運不會填寫passphrase因此，使用時必須要限定特定ip
+<img width="933" height="490" alt="image" src="https://github.com/user-attachments/assets/4b6464db-a3d3-4f3a-a9f6-cf2566990d27" />
