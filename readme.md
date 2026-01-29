@@ -32,6 +32,6 @@ from=<computer-ip>,no-port-forwarding,no-X11-forwarding,no-agent-forwarding,no-p
 ```
 # 多台客戶端維運主機
 <img width="858" height="245" alt="image" src="https://github.com/user-attachments/assets/235a0810-d873-4f33-9e1d-30ab868695dd" />
-```txt
+```
 from="192.168.0.65",permitopen="127.0.0.1:3306",no-X11-forwarding,no-agent-forwarding,no-pty
 ```
