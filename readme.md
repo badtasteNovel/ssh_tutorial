@@ -35,5 +35,5 @@ from=<computer-ip>,no-port-forwarding,no-X11-forwarding,no-agent-forwarding,no-p
 
 # 開放3306阜，進行mysql維運遠端gui維運
 ```
-from="192.168.0.65",permitopen="127.0.0.1:3306",no-X11-forwarding,no-agent-forwarding,no-pty
+from="192.168.0.65",permitopen="127.0.0.1:3306",no-port-forwarding,no-X11-forwarding,no-agent-forwarding,no-pty
 ```
