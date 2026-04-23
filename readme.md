@@ -37,3 +37,5 @@ from=<computer-ip>,no-port-forwarding,no-X11-forwarding,no-agent-forwarding,no-p
 ```
 from="192.168.0.65",permitopen="127.0.0.1:3306",no-X11-forwarding,no-agent-forwarding,no-pty
 ```
+# 可以將對方伺服器的port 開放出來(請維持終端開啟)
+ssh -L 5433:127.0.0.1:5432 <ssh-host>(可以是來自config的 HOST 名稱 就不用手動填寫金鑰)
