@@ -43,4 +43,4 @@ ssh -L 5433:127.0.0.1:5432 <ssh-host>(可以是來自config的 HOST 名稱 就�
 # ~/.ssh/authorized_keys 的作用:
 - 規範客戶端可以登入的key
 # known host 查找
-ssh-keygen -lf <path-to-your-ssh-key>.pub
+ssh-keygen -lf ``<path-to-your-ssh-key>``.pub
