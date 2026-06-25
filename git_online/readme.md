@@ -14,7 +14,7 @@ ssh-keygen \
     -f ~/.ssh/id_rsa \ ~/簡短版路徑若不行，請使用fullPath
     -N mypassphrase 通關密碼 github個人帳號不要設置
 ```
-
+公鑰放遠端
 ## 建立完 ssh 以後 ~/.ssh 將被建立 ，建立一個config 檔案
 config 檔案內容如下:
 # Github Personal
@@ -32,7 +32,6 @@ Host company
     HostName github.com
     IdentityFile ~/.ssh/id_rsa_company
 ```
-
 
 # 建立完以後先確認是否與github連線
 ```
