@@ -35,7 +35,7 @@ from=<computer-ip>,no-port-forwarding,no-X11-forwarding,no-agent-forwarding,no-p
 
 # 開放3306阜，進行mysql維運遠端gui維運，那就不要寫``no-port-forwarding``，改寫``permitopen="127.0.0.1:3306"``(**雙引號一定要注意**)
 ```
-from="192.168.0.65",permitopen="127.0.0.1:3306",no-X11-forwarding,no-agent-forwarding,no-pty
+from="192.168.0.65",permitopen="127.0.0.1:3306",no-X11-forwarding,no-agent-forwarding
 ```
 # 可以將對方伺服器的port 開放出來(請維持終端開啟)
 ssh -L 5433:127.0.0.1:5432 <ssh-host>(可以是來自config的 HOST 名稱 就不用手動填寫金鑰)
